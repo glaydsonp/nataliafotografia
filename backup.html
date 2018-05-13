@@ -1,0 +1,336 @@
+<!DOCTYPE xhtml>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Natália Nossack Desing e Fotografia</title>
+
+        <link rel="stylesheet"      href="Styles/style-reset.css /">
+        <link rel="stylesheet"      href="Styles/fontawesome-all.css" />
+        <link rel="stylesheet"      href="Styles/bootstrap.css" />
+        <link rel="stylesheet"      href="Styles/bootstrap-grid.min.css" />
+        <link rel="stylesheet"      href="Styles/styles.css" />
+        <link rel="stylesheet"      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+
+        <meta name="author"         content="Glaydson Prado Honorato" /> 
+        <meta name="generator"      content="Visual Studio Code" /> 
+        <meta name="description"    content="Página de portfólio de Natália Nossack" /> 
+        <meta name="keywords"       content="natália nossack, fotografia campinas, publicidade campinas, desing campinas, freela campinas" />
+
+        <style>
+            body{
+                background-color: #f4f5ba9d;
+                width:100%; 
+            }
+            header{
+                background-image: url("sunflowers.jpg");
+                width: 100%;
+
+            }
+            header a{
+                float: right;
+                font-size: 1em;
+                font-family: "roboto black", sans-serif;
+                color: #ffeabc;
+                text-transform: uppercase;
+                padding: 5px 2%;
+                text-shadow: black 2px 2px 2px;
+            }
+            header a:hover{
+                text-decoration: none;
+                color:#c1b28e;
+            }
+            header span{
+                color: #ffeabc;
+                font-family: "Lost in Wild Regular", sans-serif;
+                font-size: 3em;
+                clear:right;
+                width: 50%;
+                padding: 6%;
+                text-shadow: black 2px 2px 2px;
+            }
+            header span p{
+                width: 40%;
+                padding: 3% 0;
+                margin: auto;
+                display: block;
+                text-align: center;
+                border: #ffeabc solid 5px;
+                border-radius: 35px;
+            }
+            section.bg1{
+                height: 600px;
+            }
+            .bg1 h1{
+                font-family:  "lost in wild regular", sans-serif;
+                color: #ceab68;
+                text-align: center;
+                padding-top: 3%;
+            }
+            img.profilepic{
+                border-radius: 50%;
+                display:block;
+                margin:auto;
+                padding: 5% 0;
+                width: 15em;
+            }
+            p.presentation{
+                color: #ceab68;
+                font-weight: 600;
+                text-align: justify;
+                width: 60%;
+                display:block;
+                margin:auto;
+            }
+            p.subtitle{
+                text-transform: uppercase;
+                color:#ceab68;
+                font-weight: bold;
+                font-size: 1.25em;
+                text-align: center;
+                margin: -3% 0 1% 0;
+            }
+            section.bg2{
+                background-color: #ceab68;
+                color: #f4f5ba;
+                height: 800px;
+            }
+            section.bg2 h1{
+                font-family: "lost in wild regular", sans-serif;
+                text-align: center;
+                padding: 3% 0;
+            }
+            .portfolio {
+                width: 100%;
+                position: relative;
+                transition: 0.3s ease;
+                cursor: pointer;
+                padding: 3%;
+            }
+            .portfolio:hover {
+                transform: scale(1.5, 1.5);
+                z-index: 1;
+            }
+            .portfolio2 {
+                position: relative;
+                transition: 0.3s ease;
+                cursor: pointer;
+                padding: 3%;
+            }
+            .portfolio2:hover {
+                transform: scale(1.2, 1.2);
+                z-index: 1;
+            }
+            .icons{
+                margin-left: 5%;
+                width:10%;
+                padding-top: 5%;
+            }
+            table{
+                margin: 3% auto;
+                display:block;
+                width: 60%;
+                font-family: "roboto", sans-serif;
+                color: #f4f5ba;
+            }
+            td{
+                padding: 0.25em;
+            }
+            input.submit1{
+                font-family: "roboto", sans-serif;
+                color:#ceab68;
+            }
+            input, textarea{
+                border-radius: 25px;
+                height: 30px;
+            }
+            footer{
+                background-color: #ceab68;
+                height: 220px;
+                
+            }
+            footer p{
+                display: block;
+                color:#f4f5ba;
+                font-family: "Roboto", sans-serif;
+                text-align: center;
+                padding-top: 30px;
+            }
+            footer h1{
+                font-family: "lost in wild regular", sans-serif;
+                color:#f4f5ba;
+                text-align: center;
+                padding: 70px 0 0 0;    
+            }
+            footer img{
+                margin: 5px 5px 0 5px;
+            }
+            .float{
+                position:fixed;
+                width:60px;
+                height:60px;
+                bottom:40px;
+                right:40px;
+                background-color:#ceab68;
+                color:#FFF;
+                border-radius:50px;
+                text-align:center;
+                box-shadow: 0px 0px 5px 5px #c0c0c0;
+            }
+            .my-float{
+                margin-top:22px;
+            }
+            .float a:hover{
+                color:#c1b28e;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="top"></a>
+        <header>
+            <a href="#socialmedia">Redes Sociais</a>
+            <a href="#contact">Contato</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#about">Sobre mim</a>
+            <span><p>Natália Nossack</p></span>
+        </header>
+        <a href="#top" class="float"><i class="fa fa-arrow-up my-float"></i></a>
+        <section class="bg1">
+            <a id="about"></a> 
+            <h1>Sobre Mim</h1>
+            
+            <img src="Images/22281836_1496725567070933_5747313330371558789_n.jpg" alt="Profile Pic" class="profilepic" />
+            <p class="subtitle">Designer // Fotógrafa</p>
+            <p class="presentation">Olá! Meu nome é Natália e gosto de áreas como fotografia, design, propaganda e marketing. Estou o tempo todo pesquisando novos recursos para aumentar meu conhecimento em softwares. Possuo conhecimentos de modo geral no nivel intermediário-avançado em programas como: InDesign, Photoshop, PhotoFiltre Studio, PhotoScape, Lightroom, Corel Draw. E estou ansiosa para trabalhar com você!  </p>
+            
+        </section>
+        <section class="bg2"  style="height:900px;">
+            <a id="portfolio"></a> 
+            <h1>Portfólio - Design</h1>
+            <div class="design container" >
+                <div class="row">
+                    <div class="col-lg-3"><img src="Images/6349b948272301.589340e9afb3d.jpg" alt="img1" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/52c0df48274177.58934a26306a1.jpg" alt="img2" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/19d22748270419.5893374f823d3.jpg" alt="img3" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/b0d32048285935.5893846f6914e.jpg" alt="img4" class="portfolio" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3"><img src="Images/e5941248270841.58933995380e0.jpg" alt="img6" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/d58acf48271383.58933c4936daf.jpg" alt="img5" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/f7f14548271741.58933e1b61699.jpg" alt="img7" class="portfolio" /></div>
+                    <div class="col-lg-3"><img src="Images/fb199148270971.58933a3ab2969.jpg" alt="img8" class="portfolio" /></div>
+                </div>
+            </div>
+        </section>
+        <section class="bg1" style="height: 800px;">
+            <h1 style="padding-bottom: 3%;">Portfólio - Fotografia</h1>
+                <div class="row">    
+                    <div class="col-lg-4 text-center"><img src="Images/iconecasamento.png" alt="marriageIcon" class="icons portfolio2" title="Casamentos" style="width: 250px" /></div>
+                    <div class="col-lg-4 text-center"><img src="Images/pic1.png" alt="marriage1" class="portfolio2" /></div>
+                    <div class="col-lg-4 text-center"><img src="Images/pic2.png" alt="marriage2" class="portfolio2" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center"><img src="Images/iconebolo.png" alt="cakeIcon" class="icons portfolio2" title="Aniversários" style="width: 250px" /></div>
+                    <div class="col-lg-4 text-center"><img src="Images/pic3.png" alt="bday1" class="portfolio2" /></div>
+                    <div class="col-lg-4 text-center"><img src="Images/pic4.png" alt="bday2" class="portfolio2" /></div>
+                </div>
+        </section>
+        <section class="bg2" style="height: 550px;" >
+            <a id="contact"></a>
+            <h1>Vamos trabalhar juntos?</h1>
+             <form action="mailto:natalianossack@hotmail.com">
+                 <table>
+                     <tr>
+                         <td>Nome: </td>
+                         <td>E-mail: </td>
+                     </tr>
+                     <tr>
+                         <td><input type="text"     name="Name"     placeholder="   Nome"                  style="width:400px;" ></td>
+                         <td><input type="email"    name="E-mail"   placeholder="   E-mail para contato"   style="width:400px;" > </td>
+                     </tr>
+                     <tr>
+                         <td>Mensagem: </td>
+                     </tr>
+                     <tr>
+                        <td><textarea style="height:200px; width:200%;" placeholder="   Escreva aqui sua mensagem" ></textarea></td>
+                     </tr>
+                     <tr>
+                         <td></td>
+                         <td><input type="submit" value="Submit" class="btn btn-block submit1" style="padding: 3px 0;" ></td>
+                     </tr>
+                 </table>
+             </form>   
+        </section>
+        <section class="bg1" style="height: 350px;" >
+            <h1>Habilidades</h1>
+            <div class="row" style="padding-top: 3%; margin-left: 4%;" >
+                <div class="col-lg-6">
+                    <div class="container" >
+                        <h6>Ferramentas Adobe</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:90%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="padding-top: 4%;" >
+                        <h6>Corel Draw</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:85%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="padding-top: 4%;" >
+                        <h6>Fotografia</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:80%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" >
+                    <div class="container" >
+                        <h6>FontLab</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:80%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="padding-top: 4%;" >
+                        <h6>Social Media</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:95%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="padding-top: 4%;" >
+                        <h6>Organização</h6>
+                        <div class="progress" style="width:80%;height:5px;background-color: #c0c0c0;">
+                            <div class="progress-bar" role="progressbar"  style="width:90%;background-color:#ceab68;" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a id="socialmedia"></a>
+            <div class="cotainer-fluid">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <h1>Redes Sociais</h1>
+                    </div>
+                    <div class="col-lg-5" style="padding-top: 3%;text-align: center;" >
+                        <a  href="https://www.facebook.com/natalianossackfotografia/?ref=br_rs"><img src="Images/fbicon.png" alt="icone" style="width:100px" /></a>
+                        <a  href="https://twitter.com/sheslikenirvana"><img src="Images/icontwitter.png" alt="icone" style="width:100px" /></a>
+                        <a  href="https://www.behance.net/natalianossack" ><img src="Images/iconbehance.png" alt="icone" style="width:100px" /></a>
+                        <a  href="https://br.pinterest.com/natalianossack/"><img src="Images/iconpin.png" alt="icone" style="width:100px" /></a>
+                    </div>
+                    <div class="col-lg-3 lead">
+                        <p>E-mail: natalianossack@hotmail.com</p>
+                        <p>Telefone: +55 19 999299702</p>
+                    </div>
+                </div>
+                <p style="margin-top:-35px">Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
